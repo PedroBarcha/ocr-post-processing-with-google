@@ -1,15 +1,12 @@
+#correctedQuery = Google's "did you mean?"
+####TODO######
+#Move cx and apy_key to global configs
+
 import urllib2
 import queryenhancer
 
-#correctedQuery = Google's "did you mean?"
-
-####TODO######
-#Move this to global configs
-#Read google's license
+API_key=""
 cx="017534179585087163853:5lebqajxk1c" #The identifier of google's1 Custom Search Engine.
-#API_key="AIzaSyCej0te2JaMUYklKjVwnN5dX9b492J7LuU" #Google's API key
-API_key="AIzaSyA6IouAcz1zxOsyaQnVjocQbP4eEkIvuDs"
-print API_key
 
 #with the index of the "correctedQuery", we can find the "did you mean" suggestion (located at the following indexes).
 #the words yielded by "did you mean" are put into corrected_query. The last world is indicated by a comma at its end.
