@@ -6,6 +6,7 @@ import urllib2
 import queryenhancer
 
 API_key=""
+
 cx="017534179585087163853:5lebqajxk1c" #The identifier of google's Custom Search Engine.
 
 #with the index of the "correctedQuery", we can find the "did you mean" suggestion (located at the following indexes).
@@ -42,6 +43,3 @@ def spellCheck(query):
 
 	#if there is a spell mistake, the "did you mean" suggestion must be find after "correctedQuery" field
 	return getCorrectedQuery(list_of_words,index)
-
-
-
