@@ -6,7 +6,7 @@ import urllib2
 import queryenhancer
 
 API_key=""
-cx="017534179585087163853:5lebqajxk1c" #The identifier of google's1 Custom Search Engine.
+cx="017534179585087163853:5lebqajxk1c" #The identifier of google's Custom Search Engine.
 
 #with the index of the "correctedQuery", we can find the "did you mean" suggestion (located at the following indexes).
 #the words yielded by "did you mean" are put into corrected_query. The last world is indicated by a comma at its end.

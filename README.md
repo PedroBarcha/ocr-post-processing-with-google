@@ -1,5 +1,5 @@
 ## THE PROJECT
-Currently, the program wrap the text into 5 words blocks, query them to google and print whether it produced a "did you mean". However it still doesn't subtitute the given suggestion for the original excerpt. In the middle of the project I found out that google provides only 100 queries per day which isn't quite enough for me (if you need more than this you need to pay A LOT) and, hence, I've been looking for free alternative search engines, leaving this project in standby for now.
+Currently, the program wraps the text into 5 words blocks, query them to google and print whether they produced a "did you mean" (and if so, what was it). However it still doesn't subtitute the given suggestion for the original excerpt. In the middle of the project I found out that google provides only 100 queries per day which isn't quite enough for me (if you need more than this you need to pay A LOT) and, hence, I've been looking for free alternative search engines, leaving this project in standby for now.
 
 ## USAGE
 1. Get an API Key at https://console.developers.google.com/apis/credentials
